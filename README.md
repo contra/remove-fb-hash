@@ -2,7 +2,7 @@
 
 ## Information
 
-When you login with Facebook and they redirect back to you, they attack an annoying ass hash to your url (#`_=_`) - this is a simple module to remove it.
+When you login with Facebook and they redirect back to you, they attach an annoying ass hash to your url (#`_=_`) - this is a simple module to remove it.
 
 If pushState is available, it will use that - otherwise it will use window.location. This means it should work back to IE6.
 
